@@ -1,0 +1,27 @@
+{
+  "name": "filtered-catching-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "errors.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaklaus/filtered-catching-promise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaklaus/filtered-catching-promise/issues"
+  },
+  "homepage": "https://github.com/raphaklaus/filtered-catching-promise#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
